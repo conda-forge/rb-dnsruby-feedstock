@@ -1,5 +1,5 @@
 {% set name = "dnsruby" %}
-{% set version = "1.61.3" %}
+{% set version = "1.61.4" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: d33d16b07cd5309f30bdc99bb0e3502c991a4946119e074a3b988c34055d2c8d
+  sha256: 5d98c2ed7879124cf938011fa79011f0ce512db2f6219066040d2f543fc19544
 
 build:
   noarch: generic
